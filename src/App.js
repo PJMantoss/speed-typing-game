@@ -44,10 +44,7 @@ function App() {
   }
 
   const reStart = () => {
-    setText("");
-    setTimeRemaining(0);
-    setIsTimeRunning(false);
-    setWordCount(0);
+    
 
   }
 
