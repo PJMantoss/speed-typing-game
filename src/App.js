@@ -34,7 +34,7 @@ function App() {
           value={text} 
       />
 
-      <h4>Time remaining: ???</h4>
+n     <h4>Time remaining: {timeRemaining}</h4>
 
       <button onClick={() => countWords(text)}>Start</button>
 
