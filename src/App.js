@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
 
     setTimeout(() => {
-      setTimeRemaining(time => time - 1);
+      setTimeRemaining(time => time === 0 ? 0 : time - 1);
     }, 1000)
 
   }, [timeRemaining])
