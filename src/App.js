@@ -58,6 +58,7 @@ function App() {
           onChange={handleChange} 
           value={text} 
           disabled={!isTimeRunning}
+          ref={textBoxRef}
       />
 
      <h4>Time remaining: {timeRemaining}</h4>
