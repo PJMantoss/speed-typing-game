@@ -32,12 +32,6 @@ function App() {
 
   }, [timeRemaining, isTimeRunning]);
 
-  const wordCount = () => {
-    let total = 0;
-    if ()
-    return total;
-  }
-
   return (
     <div>
       <h1>How fast do you type?</h1>
