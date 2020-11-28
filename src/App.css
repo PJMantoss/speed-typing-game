@@ -1,4 +1,7 @@
-html, body {}
+html, body {
+  background: black;
+  color: #00b800;
+}
 
 .App {
   text-align: center;
