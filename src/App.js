@@ -54,6 +54,7 @@ function App() {
       <textarea 
           onChange={handleChange} 
           value={text} 
+          disabled={!isTimeRunning}
       />
 
      <h4>Time remaining: {timeRemaining}</h4>
