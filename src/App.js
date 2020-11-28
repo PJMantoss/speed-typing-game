@@ -26,10 +26,12 @@ function App() {
     // return count;
   }
 
-  useEffetc(() => {
+  useEffect(() => {
+
     setTimeout(() => {
-      
+      setTimeRemaining(timeRemaining - 1);
     }, 1000)
+
   }, [timeRemaining])
 
   return (
