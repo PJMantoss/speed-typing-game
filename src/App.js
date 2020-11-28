@@ -6,6 +6,9 @@ function App() {
   const [timeRemaining, setTimeRemaining] = useState(5);
   const [isTimeRunning, setIsTimeRunning] = useState(false);
   const [wordCount, setWordCount] = useState(0);
+
+  const restartBtn = document.getElementById('restart');
+  const startBtn = document.getElementById('start');
   
   const handleChange = (e) => {
     const {value} = e.target;
