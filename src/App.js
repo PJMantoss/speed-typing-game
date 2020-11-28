@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   const [text, setText] = useState("");
   
+  handleChange = (e) => {}
   return (
     <div className="App">
       <h1>How fast do you type?</h1>
