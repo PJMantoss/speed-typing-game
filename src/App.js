@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <h1>How fast do you type?</h1>
-      <textarea value={} />
+      <textarea onChange={} value={} />
       <h4>Time remaining: ???</h4>
       <button>Start</button>
       <h1>Word Count: ???</h1>
