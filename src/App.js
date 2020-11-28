@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   const [text, setText] = useState("");
   const [timeRemaining, setTimeRemaining] = useState(5);
+  const [isTimeRunning, setIsTimeRunning] = useState(false);
   
   const handleChange = (e) => {
     const {value} = e.target;
@@ -23,14 +24,16 @@ function App() {
     //       count += 1;
     // }
 
-    // return count;
+    // return count; 
   }
 
   useEffect(() => {
 
-    setTimeout(() => {
-      setTimeRemaining(time => time === 0 ? 0 : time - 1);
-    }, 1000)
+    if(isTimeRunning && timeRemaining > 0){
+      setTimeout(() => {
+        setTimeRemaining(time => time - 1);
+      }, 1000)
+    }
 
   }, [timeRemaining])
 
