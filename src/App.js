@@ -27,8 +27,7 @@ function App() {
         setTimeRemaining(time => time - 1);
       }, 1000)
     } else if (timeRemaining === 0){
-      setIsTimeRunning(false);
-      setWordCount(countWords(text));
+      endGame();
     }
 
   }, [timeRemaining, isTimeRunning]);
@@ -43,7 +42,7 @@ function App() {
 
   //End Game
   const endGame = () => {
-    
+
   }
 
   return (
