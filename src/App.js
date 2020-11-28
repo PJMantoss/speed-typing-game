@@ -29,7 +29,7 @@ function App() {
       }, 1000)
     } else if (timeRemaining === 0){
       setIsTimeRunning(false);
-      
+      setWordCount(countWords(text));
     }
 
   }, [timeRemaining, isTimeRunning]);
