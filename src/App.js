@@ -15,9 +15,9 @@ function App() {
     let wordsArr = text.trim().split(" ");
     
     let filteredWords = wordsArr.filter(word => (word !== ""))
-    if (timeRemaining === 0){
+
       return filteredWords.length;
-    } 
+  
   }
 
   useEffect(() => {
@@ -45,7 +45,7 @@ function App() {
 
       <button onClick={() => setIsTimeRunning(true)}>Start</button>
 
-      <h1>Word Count: ???</h1>
+      <h1>Word Count: {countWords}</h1>
     </div>
   );
 }
