@@ -47,7 +47,7 @@ function App() {
 
       <button onClick={() => setIsTimeRunning(true)}>Start</button>
 
-      <h1>Word Count: {countWords}</h1>
+      <h1>Word Count: {wordCount}</h1>
     </div>
   );
 }
