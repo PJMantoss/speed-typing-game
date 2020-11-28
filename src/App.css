@@ -24,6 +24,10 @@ button {
   cursor: pointer;
 }
 
+button:disabled {
+   
+}
+
 h1 {
   font-size: 21px;
   text-align: center;
