@@ -18,7 +18,6 @@ function App() {
     let filteredWords = wordsArr.filter(word => (word !== ""))
 
       return filteredWords.length;
-  
   }
 
   useEffect(() => {
