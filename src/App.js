@@ -13,7 +13,7 @@ function App() {
     let wordsArr = text.trim().split(" ");
     console.log(wordsArr.length)
     let filteredWords = wordsArr.filter(word => (word !== ""))
-    return wordsArr.length;
+    return filteredWords.length;
     // let count = 0;
     // for (let i=0; i<text.length; i++){
     //       count += 1;
