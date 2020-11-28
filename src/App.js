@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 
 function App() {
-  const STARTING_TIME = 30;
+  const STARTING_TIME = 8;
   const [text, setText] = useState("");
   const [timeRemaining, setTimeRemaining] = useState(STARTING_TIME);
   const [isTimeRunning, setIsTimeRunning] = useState(false);
@@ -40,6 +40,7 @@ function App() {
     setText("");
     setWordCount(0);
     setTimeRemaining(STARTING_TIME);
+    textBoxRef.current.disabled = false;
     textBoxRef.current.focus();
   }
 
