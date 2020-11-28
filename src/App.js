@@ -36,13 +36,17 @@ function App() {
   }, [timeRemaining, isTimeRunning]);
 
   const showRestart = () => {
-    const restartBtn = document.getElementById('restart');
-    const startBtn = document.getElementById('start');
     restartBtn.style.display = "block";
     startBtn.style.display = "none";
   }
 
-  const reStart = () => {}
+  const reStart = () => {
+    text = "";
+    timeRemaining = 0;
+    isTimeRunning = false;
+    wordCount = 0;
+
+  }
 
   return (
     <div>
@@ -56,7 +60,7 @@ function App() {
      <h4>Time remaining: {timeRemaining}</h4>
 
       <button id="start" onClick={() => setIsTimeRunning(true)}>Start</button>
-      <button id="restart" onClick={() => reStart()}>Re-Start</button>
+      <button style={{display: "none"}} id="restart" onClick={() => reStart()}>Re-Start</button>
 
       <h1>Word Count: {wordCount}</h1>
     </div>
