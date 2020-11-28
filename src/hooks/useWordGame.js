@@ -49,7 +49,7 @@ function useWordGame(){
     setWordCount(countWords(text));
   }
 
-  return {textBoxRef, text, handleChange, isTimeRunning, timeRemaining, startGame, wordCount}
+  return {textBoxRef, text, handleChange, isTimeRunning, timeRemaining, startGame, wordCount};
 }
 
 export default useWordGame;
