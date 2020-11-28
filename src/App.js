@@ -64,7 +64,7 @@ function App() {
       <button 
           onClick={startGame} 
           disabled={isTimeRunning}
-          ref={inputRef}>Start</button>
+          ref={textBoxRef}>Start</button>
   
       <h1>Word Count: {wordCount}</h1>
     </div>
