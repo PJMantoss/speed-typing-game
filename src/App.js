@@ -1,4 +1,5 @@
 import React from 'react';
+import useWordGame from './hooks/useWordGame';
 import './App.css';
 
 function App() {
