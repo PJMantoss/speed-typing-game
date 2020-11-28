@@ -9,7 +9,14 @@ function App() {
     setText(value);
   }
 
-  const countWords = () => {}
+  const countWords = (word) => {
+    let count = 0;
+    for (let i=0; i<word.length; i++){
+          count += 1;
+    }
+
+    return count;
+  }
 
   console.log(text);
 
