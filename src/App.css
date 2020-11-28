@@ -40,4 +40,6 @@ textarea {
   padding: 10px;
 }
 
-textarea:disabled {}
+textarea:disabled {
+  background: #a5a2a2;
+}
