@@ -18,17 +18,15 @@ function App() {
     return count;
   }
 
-  console.log(text);
-
   return (
-    <div className="App">
+    <div>
       <h1>How fast do you type?</h1>
       <textarea 
           onChange={handleChange} 
           value={text} 
       />
       <h4>Time remaining: ???</h4>
-      <button>Start</button>
+      <button onClick={countWords}>Start</button>
       <h1>Word Count: ???</h1>
     </div>
   );
