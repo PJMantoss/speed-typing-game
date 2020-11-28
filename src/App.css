@@ -21,3 +21,8 @@ button {
   padding: 10px 20px;
   text-transform: uppercase;
 }
+
+h1 {
+  font-size: 21px;
+  text-align: center;
+}
