@@ -33,11 +33,6 @@ function App() {
 
   }, [timeRemaining, isTimeRunning]);
 
-  const showRestart = () => {
-    restartBtn.style.display = "block";
-    startBtn.style.display = "none";
-  }
-
   return (
     <div>
       <h1>How fast do you type?</h1>
