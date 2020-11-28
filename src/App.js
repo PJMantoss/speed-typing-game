@@ -15,16 +15,9 @@ function App() {
     let wordsArr = text.trim().split(" ");
     
     let filteredWords = wordsArr.filter(word => (word !== ""))
-    // console.log(filteredWords.length)
-    return filteredWords.length;
-    
-    //Alternative code
-    // let count = 0;
-    // for (let i=0; i<text.length; i++){
-    //       count += 1;
-    // }
-
-    // return count; 
+    if (timeRemaining === 0){
+      return filteredWords.length;
+    } 
   }
 
   useEffect(() => {
@@ -37,7 +30,13 @@ function App() {
       setIsTimeRunning(false);
     }
 
-  }, [timeRemaining, isTimeRunning])
+  }, [timeRemaining, isTimeRunning]);
+
+  const wordCount = () => {
+    let total = 0;
+    if ()
+    return total;
+  }
 
   return (
     <div>
