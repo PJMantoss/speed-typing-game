@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
   const [text, setText] = useState("");
+  const [timer, setTimer] = useState(0);
   
   const handleChange = (e) => {
     const {value} = e.target;
