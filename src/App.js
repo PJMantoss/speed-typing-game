@@ -42,6 +42,8 @@ function App() {
     startBtn.style.display = "none";
   }
 
+  const reStart = () => {}
+
   return (
     <div>
       <h1>How fast do you type?</h1>
