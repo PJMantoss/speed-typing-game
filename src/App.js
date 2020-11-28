@@ -33,6 +33,11 @@ function App() {
 
   }, [timeRemaining, isTimeRunning]);
 
+  const startClock = () => {
+    setIsTimeRunning(true);
+    setText("");
+  }
+
   return (
     <div>
       <h1>How fast do you type?</h1>
