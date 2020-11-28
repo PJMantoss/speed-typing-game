@@ -9,6 +9,8 @@ function App() {
     setText(value);
   }
 
+  const countWords = () => {}
+
   console.log(text);
 
   return (
