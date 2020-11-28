@@ -4,7 +4,13 @@ import './App.css';
 
 function App() {
   const {
-    textBoxRef, text, handleChange, isTimeRunning, timeRemaining, startGame, wordCount
+    textBoxRef, 
+    text, 
+    handleChange, 
+    isTimeRunning, 
+    timeRemaining, 
+    startGame, 
+    wordCount
   } = useWordGame();
   return (
     <div>
