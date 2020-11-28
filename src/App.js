@@ -5,6 +5,7 @@ function App() {
   const [text, setText] = useState("");
   const [timeRemaining, setTimeRemaining] = useState(5);
   const [isTimeRunning, setIsTimeRunning] = useState(false);
+  const [wordCount, setWordCount] = useState(0);
   
   const handleChange = (e) => {
     const {value} = e.target;
@@ -28,6 +29,7 @@ function App() {
       }, 1000)
     } else if (timeRemaining === 0){
       setIsTimeRunning(false);
+      
     }
 
   }, [timeRemaining, isTimeRunning]);
