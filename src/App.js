@@ -8,7 +8,7 @@ function App() {
       <textarea />
       <h4>Time remaining: ???</h4>
       <button>Start</button>
-      <h1>Word Count</h1>
+      <h1>Word Count: ???</h1>
     </div>
   );
 }
