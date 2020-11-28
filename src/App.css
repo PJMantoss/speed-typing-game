@@ -16,4 +16,6 @@ button {
   font-family: 'Press Start 2P', cursive;
   display: block;
   margin: 0 auto;
+  border: none;
+  background: #00b800;
 }
