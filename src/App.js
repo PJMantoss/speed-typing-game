@@ -25,6 +25,8 @@ function App() {
     // return count;
   }
 
+  useEffetc(() => {}, [])
+
   return (
     <div>
       <h1>How fast do you type?</h1>
