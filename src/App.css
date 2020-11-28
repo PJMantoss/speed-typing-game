@@ -29,4 +29,7 @@ h1 {
 
 textarea {
   font-family: 'Press Start 2P', cursive;
+  border: 3px solid black;
+  width: 90%;
+  margin: 0 auto;
 }
