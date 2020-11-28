@@ -39,3 +39,5 @@ textarea {
   background: #00b800;
   padding: 10px;
 }
+
+textarea:disabled {}
