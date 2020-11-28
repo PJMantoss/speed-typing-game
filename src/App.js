@@ -37,6 +37,7 @@ function App() {
     setIsTimeRunning(true);
     setText("");
     setWordCount(0);
+    setTimeRemaining(5);
   }
 
   return (
