@@ -42,7 +42,8 @@ function App() {
 
   //End Game
   const endGame = () => {
-
+    setIsTimeRunning(false);
+    setWordCount(countWords(text));
   }
 
   return (
