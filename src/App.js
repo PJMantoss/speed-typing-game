@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
+  const STARTING_TIME = 5;
   const [text, setText] = useState("");
-  const [timeRemaining, setTimeRemaining] = useState(5);
+  const [timeRemaining, setTimeRemaining] = useState(STARTING_TIME);
   const [isTimeRunning, setIsTimeRunning] = useState(false);
   const [wordCount, setWordCount] = useState(0);
   
@@ -37,7 +38,7 @@ function App() {
     setIsTimeRunning(true);
     setText("");
     setWordCount(0);
-    setTimeRemaining(5);
+    setTimeRemaining(STARTING_TIME);
   }
 
   //End Game
@@ -57,7 +58,7 @@ function App() {
 
      <h4>Time remaining: {timeRemaining}</h4>
 
-      <button id="start" onClick={startGame}>Start</button>
+      <button onClick={startGame} >Start</button>
   
       <h1>Word Count: {wordCount}</h1>
     </div>
