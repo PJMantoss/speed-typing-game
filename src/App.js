@@ -11,9 +11,11 @@ function App() {
 
   const countWords = (text) => {
     let wordsArr = text.trim().split(" ");
-    console.log(wordsArr.length)
+    
     let filteredWords = wordsArr.filter(word => (word !== ""))
+    console.log(filteredWords.length)
     return filteredWords.length;
+    
     // let count = 0;
     // for (let i=0; i<text.length; i++){
     //       count += 1;
