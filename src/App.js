@@ -6,6 +6,8 @@ function App() {
   
   handleChange = (e) => {}
 
+  console.log(text);
+
   return (
     <div className="App">
       <h1>How fast do you type?</h1>
