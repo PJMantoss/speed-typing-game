@@ -6,6 +6,7 @@ function App() {
   
   handleChange = (e) => {
     const {value} = e.target;
+    setText(value);
   }
 
   console.log(text);
