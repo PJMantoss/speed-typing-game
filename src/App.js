@@ -36,7 +36,9 @@ function App() {
 
   const showRestart = () => {
     const restartBtn = document.getElementById('restart');
+    const startBtn = document.getElementById('start');
     restartBtn.style.display = "block";
+    startBtn.style.display = "none";
   }
 
   return (
