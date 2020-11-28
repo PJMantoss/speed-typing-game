@@ -11,3 +11,7 @@ html, body {
 body {
   font-weight: 400;
 }
+
+button {
+  font-family: 'Press Start 2P', cursive;
+}
