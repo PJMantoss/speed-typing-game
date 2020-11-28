@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
+  const [text, setText] = useState("");
+  
   return (
     <div className="App">
       <h1>How fast do you type?</h1>
