@@ -32,8 +32,8 @@ function App() {
 
       <h4>Time remaining: ???</h4>
 
-      <button onClick={countWords}>Start</button>
-      
+      <button onClick={() => countWords}>Start</button>
+
       <h1>Word Count: ???</h1>
     </div>
   );
