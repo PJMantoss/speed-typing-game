@@ -34,4 +34,6 @@ textarea {
   margin: 0 auto;
   outline: none;
   height: 200px;
+  background: #00b800;
+  padding: 10px;
 }
