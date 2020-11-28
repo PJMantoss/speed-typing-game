@@ -33,6 +33,7 @@ function App() {
 
   }, [timeRemaining, isTimeRunning]);
 
+  //Re-start Game
   const startClock = () => {
     setIsTimeRunning(true);
     setText("");
