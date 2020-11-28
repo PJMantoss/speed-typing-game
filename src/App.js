@@ -10,7 +10,7 @@ function App() {
   }
 
   const countWords = (text) => {
-    let wordsArr = text.split(" ");
+    let wordsArr = text.trim().split(" ");
     console.log(wordsArr.length)
     return wordsArr.length;
     // let count = 0;
