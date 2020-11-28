@@ -44,7 +44,7 @@ function App() {
   }
 
   const reStart = () => {
-    
+    wordCount;
 
   }
 
