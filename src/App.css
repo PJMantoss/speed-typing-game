@@ -32,4 +32,6 @@ textarea {
   border: 3px solid black;
   width: 90%;
   margin: 0 auto;
+  outline: none;
+  height: 200px;
 }
