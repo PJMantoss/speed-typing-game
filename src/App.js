@@ -36,6 +36,7 @@ function App() {
   const startClock = () => {
     setIsTimeRunning(true);
     setText("");
+    setWordCount(0);
   }
 
   return (
