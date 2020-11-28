@@ -30,6 +30,7 @@ function App() {
     } else if (timeRemaining === 0){
       setIsTimeRunning(false);
       setWordCount(countWords(text));
+      showRestart();
     }
 
   }, [timeRemaining, isTimeRunning]);
