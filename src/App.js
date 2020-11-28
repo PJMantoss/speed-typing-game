@@ -15,7 +15,7 @@ function App() {
     let wordsArr = text.trim().split(" ");
     
     let filteredWords = wordsArr.filter(word => (word !== ""))
-    console.log(filteredWords.length)
+    // console.log(filteredWords.length)
     return filteredWords.length;
     
     //Alternative code
@@ -33,9 +33,11 @@ function App() {
       setTimeout(() => {
         setTimeRemaining(time => time - 1);
       }, 1000)
+    } else if (timeRemaining === 0){
+      setIsTimeRunning(false);
     }
 
-  }, [timeRemaining])
+  }, [timeRemaining, isTimeRunning])
 
   return (
     <div>
@@ -48,7 +50,7 @@ function App() {
 
      <h4>Time remaining: {timeRemaining}</h4>
 
-      <button onClick={() => countWords(text)}>Start</button>
+      <button onClick={() => setIsTimeRunning(true)}>Start</button>
 
       <h1>Word Count: ???</h1>
     </div>
