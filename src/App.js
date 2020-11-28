@@ -9,9 +9,9 @@ function App() {
     setText(value);
   }
 
-  const countWords = (word) => {
+  const countWords = (text) => {
     let count = 0;
-    for (let i=0; i<word.length; i++){
+    for (let i=0; i<text.length; i++){
           count += 1;
     }
 
