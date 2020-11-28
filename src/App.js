@@ -8,6 +8,7 @@ function App() {
       <textarea />
       <h4></h4>
       <button></button>
+      <h1></h1>
     </div>
   );
 }
