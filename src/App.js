@@ -4,7 +4,9 @@ import './App.css';
 function App() {
   const [text, setText] = useState("");
   
-  handleChange = (e) => {}
+  handleChange = (e) => {
+    const {value} = e.target;
+  }
 
   console.log(text);
 
