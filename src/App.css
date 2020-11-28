@@ -21,6 +21,7 @@ button {
   padding: 10px 20px;
   text-transform: uppercase;
   outline: none;
+  cursor: pointer;
 }
 
 h1 {
