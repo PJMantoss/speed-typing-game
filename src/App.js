@@ -60,7 +60,10 @@ function App() {
 
      <h4>Time remaining: {timeRemaining}</h4>
 
-      <button onClick={startGame} disabled={isTimeRunning}>Start</button>
+      <button 
+          onClick={startGame} 
+          disabled={isTimeRunning}
+          ref={inputRef}>Start</button>
   
       <h1>Word Count: {wordCount}</h1>
     </div>
