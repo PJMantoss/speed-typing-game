@@ -40,6 +40,7 @@ function App() {
     setText("");
     setWordCount(0);
     setTimeRemaining(STARTING_TIME);
+    inputRef.current.focus();
   }
 
   //End Game
