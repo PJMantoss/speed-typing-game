@@ -44,7 +44,7 @@ function App() {
   }
 
   const reStart = () => {
-    wordCount = 0;
+    
 
   }
 
@@ -60,7 +60,7 @@ function App() {
      <h4>Time remaining: {timeRemaining}</h4>
 
       <button id="start" onClick={() => setIsTimeRunning(true)}>Start</button>
-      <button style={{display: "none"}} id="restart" onClick={reStart()}>Re-Start</button>
+      <button style={{display: "none"}} id="restart" onClick={() => setIsTimeRunning(true)}>Re-Start</button>
 
       <h1>Word Count: {wordCount}</h1>
     </div>
