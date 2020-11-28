@@ -44,7 +44,7 @@ function App() {
 
      <h4>Time remaining: {timeRemaining}</h4>
 
-      <button id="start" onClick={() => setIsTimeRunning(true)}>Start</button>
+      <button id="start" onClick={startClock}>Start</button>
   
       <h1>Word Count: {wordCount}</h1>
     </div>
