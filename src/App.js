@@ -34,6 +34,11 @@ function App() {
 
   }, [timeRemaining, isTimeRunning]);
 
+  const showRestart = () => {
+    const restartBtn = document.getElementById('restart');
+    restartBtn.style.display = "block";
+  }
+
   return (
     <div>
       <h1>How fast do you type?</h1>
@@ -45,8 +50,8 @@ function App() {
 
      <h4>Time remaining: {timeRemaining}</h4>
 
-      <button onClick={() => setIsTimeRunning(true)}>Start</button>
-      <button onClick={() => reStart()}>Re-Start</button>
+      <button id="start" onClick={() => setIsTimeRunning(true)}>Start</button>
+      <button id="restart" onClick={() => reStart()}>Re-Start</button>
 
       <h1>Word Count: {wordCount}</h1>
     </div>
