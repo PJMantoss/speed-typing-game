@@ -34,11 +34,16 @@ function App() {
   }, [timeRemaining, isTimeRunning]);
 
   //Re-start Game
-  const startClock = () => {
+  const startGame = () => {
     setIsTimeRunning(true);
     setText("");
     setWordCount(0);
     setTimeRemaining(5);
+  }
+
+  //End Game
+  const endGame = () => {
+    
   }
 
   return (
@@ -52,7 +57,7 @@ function App() {
 
      <h4>Time remaining: {timeRemaining}</h4>
 
-      <button id="start" onClick={startClock}>Start</button>
+      <button id="start" onClick={startGame}>Start</button>
   
       <h1>Word Count: {wordCount}</h1>
     </div>
