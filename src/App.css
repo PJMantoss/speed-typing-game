@@ -20,6 +20,7 @@ button {
   background: #00b800;
   padding: 10px 20px;
   text-transform: uppercase;
+  outline: none;
 }
 
 h1 {
