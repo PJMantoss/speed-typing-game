@@ -27,8 +27,10 @@ function App() {
   }
 
   useEffetc(() => {
-    setTimeout(() => {}, 1000)
-  }, [])
+    setTimeout(() => {
+      
+    }, 1000)
+  }, [timeRemaining])
 
   return (
     <div>
