@@ -59,3 +59,8 @@ footer {
 footer p {
   font-size: 12px;
 }
+
+#love {
+  display: flex;
+  
+}
