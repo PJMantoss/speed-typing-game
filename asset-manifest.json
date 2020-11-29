@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PJMantoss/speed-typing-game/settings/static/css/main.a9bd3e20.chunk.css",
+    "main.js": "/PJMantoss/speed-typing-game/settings/static/js/main.54aa58d0.chunk.js",
+    "main.js.map": "/PJMantoss/speed-typing-game/settings/static/js/main.54aa58d0.chunk.js.map",
+    "runtime-main.js": "/PJMantoss/speed-typing-game/settings/static/js/runtime-main.73e93dc5.js",
+    "runtime-main.js.map": "/PJMantoss/speed-typing-game/settings/static/js/runtime-main.73e93dc5.js.map",
+    "static/js/2.30f93f28.chunk.js": "/PJMantoss/speed-typing-game/settings/static/js/2.30f93f28.chunk.js",
+    "static/js/2.30f93f28.chunk.js.map": "/PJMantoss/speed-typing-game/settings/static/js/2.30f93f28.chunk.js.map",
+    "static/js/3.f1bba244.chunk.js": "/PJMantoss/speed-typing-game/settings/static/js/3.f1bba244.chunk.js",
+    "static/js/3.f1bba244.chunk.js.map": "/PJMantoss/speed-typing-game/settings/static/js/3.f1bba244.chunk.js.map",
+    "index.html": "/PJMantoss/speed-typing-game/settings/index.html",
+    "static/css/main.a9bd3e20.chunk.css.map": "/PJMantoss/speed-typing-game/settings/static/css/main.a9bd3e20.chunk.css.map",
+    "static/js/2.30f93f28.chunk.js.LICENSE.txt": "/PJMantoss/speed-typing-game/settings/static/js/2.30f93f28.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73e93dc5.js",
+    "static/js/2.30f93f28.chunk.js",
+    "static/css/main.a9bd3e20.chunk.css",
+    "static/js/main.54aa58d0.chunk.js"
+  ]
+}
