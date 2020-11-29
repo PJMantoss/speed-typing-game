@@ -34,6 +34,7 @@ function App() {
         >Start</button>
   
       <h1>Word Count: {wordCount}</h1>
+      <Footer />
     </div>
   );
 }
