@@ -71,3 +71,9 @@ footer p {
   color: rgb(40, 216, 240);
   text-decoration: none;
 }
+
+#love > span {
+  font-weight: 400;
+  font-size: 12px;
+  
+}
