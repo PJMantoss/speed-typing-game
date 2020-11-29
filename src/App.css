@@ -66,3 +66,8 @@ footer p {
   align-items: center;
   margin-top: 15px;
 }
+
+#love a {
+  color: rgb(9, 64, 216);
+  text-decoration: none;
+}
