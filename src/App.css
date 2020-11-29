@@ -47,3 +47,11 @@ textarea {
 textarea:disabled {
   background: #a5a2a2;
 }
+
+/* Styling for Footer */
+footer {
+  background: transparent;
+  color: #00b800;
+  text-align: center;
+  padding: 3em 0 0 0;
+}
