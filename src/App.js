@@ -1,5 +1,6 @@
 import React from 'react';
 import useWordGame from './hooks/useWordGame';
+import Footer from './Footer';
 import './App.css';
 
 function App() {
