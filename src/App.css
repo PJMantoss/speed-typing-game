@@ -62,5 +62,6 @@ footer p {
 
 #love {
   display: flex;
+  justify-content: center;
   
 }
