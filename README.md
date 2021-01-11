@@ -6,6 +6,11 @@ useRef() - For textarea focus
 
 useEffect() - For timing and ending game
 
+This project demonstrates the following tech skills:
+
+React Hooks and Functional Components.
+
 Date: 28-Nov-20
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
